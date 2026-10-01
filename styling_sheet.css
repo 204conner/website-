@@ -1,0 +1,28 @@
+header{ 
+   
+   text-align: center;
+   background-color:rgb(247, 214, 172);
+   font-size:2.2em;
+   font-weight: bold;
+}
+
+h1, h2, h3, h4, h5 ,h6{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: beige;
+   font-size:1.2em;
+}
+ul{color: darkseagreen;}
+h2{
+   font-size: .5em;
+}
+
+#infromation{
+   color: darkseagreen;
+   font-size: 1.2em;
+}
+main{
+   color:darkseagreen;
+   font-size:1.22em;
+}
