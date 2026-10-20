@@ -137,3 +137,12 @@
 #         print(f'gross pay for employee {index + 1}: ${gross_pay:,.2f}')
 # if __name__ == '__main__':
 #     main()
+def main():
+    infile = open('cities.text', 'r')
+    cities = infile.readlines()
+    infile.close()
+    for index in range(len(cities)):
+        cities[index] = cities[index].rstrip('\n')
+    print(cities)
+if __name__ == '__main__':
+    main()
